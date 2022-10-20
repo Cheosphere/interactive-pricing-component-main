@@ -399,7 +399,7 @@ input:checked+.sliderswitch:before {
 
     .period_switch {
         margin-top: 7.5rem;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .switch {
