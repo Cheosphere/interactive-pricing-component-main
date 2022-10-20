@@ -2,10 +2,14 @@ const rangeBar = document.getElementById('range_bar')
 const pageViews = document.getElementById('pageviews')
 const planPrice = document.getElementById('price')
 const periodSwitch = document.getElementById('period_switch')
+const periodText = document.querySelectorAll('.period_switch_text')
 
 periodSwitch.addEventListener('click', () => {
     periodSwitch.classList.toggle('discount')
     discount()
+    periodText.forEach(item => {
+        item.classList.toggle('period_active')
+    });
 })
 
 function discount() {

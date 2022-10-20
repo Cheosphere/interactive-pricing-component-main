@@ -218,6 +218,11 @@ input[type="range"]::-moz-range-progress {
 .period_switch_text {
     font-size: .75rem;
     letter-spacing: .02rem;
+    transition: all .25s ease-in-out;
+}
+
+.period_active {
+    color: var(--strong-cyan-slider-backround);
 }
 
 .period_switch_text_discount {
