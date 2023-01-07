@@ -32,7 +32,7 @@ body {
 body {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     font-family: 'Manrope', sans-serif;
     color: var(--grayish-blue-text);
     background-color: var(--very-pale-blue-main-background);
@@ -46,8 +46,11 @@ body {
     padding: 1rem;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-
+    align-items: center;
+    background-image: url(images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100vw 56.1vh;
 }
 
 .content {
