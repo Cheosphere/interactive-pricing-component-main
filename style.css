@@ -47,10 +47,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/bg-pattern.svg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100vw 56.1vh;
+
 }
 
 .content {
@@ -349,6 +346,7 @@ input:checked+.sliderswitch:before {
     color: var(--white-pricing-component-background);
 }
 
+/* MEDIA QUERY */
 @media screen and (max-width: 926px) {
     
     body {
