@@ -30,12 +30,14 @@ body {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     font-family: 'Manrope', sans-serif;
     color: var(--grayish-blue-text);
     background-color: var(--very-pale-blue-main-background);
     overflow-x: hidden;
+}
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
 }
 
