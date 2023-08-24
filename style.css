@@ -32,7 +32,7 @@ body {
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     font-family: 'Manrope', sans-serif;
     color: var(--grayish-blue-text);
     background-color: var(--very-pale-blue-main-background);
